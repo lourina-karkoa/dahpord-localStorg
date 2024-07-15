@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1100px;
+    margin: 50px auto;
+
+}
+.container .card.done{
+    color: green;
+}
+form{
+    width: max-content;
+    margin: 20px auto;
+}
+
+form input:nth-child(1){
+    height: 35px;
+    width: 250px;
+    display: block;
+}
+form input:nth-child(2){
+    height: 35px;
+    width: 130px;
+    display: block;
+    margin-top: 20px;
+}
+.updateName{
+    display: none;
+    background-color: rgb(194, 142, 142);
+}
+form button{
+    height: 35px;
+    margin:20px 30px 0 0;
+}
+#searchInput{
+    height: 35px;
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+}
